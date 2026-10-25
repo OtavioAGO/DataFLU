@@ -1,0 +1,21 @@
+[project]
+name = "dataflu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Otávio Augusto", email = "otavioago@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "selenium>=4.51.0",
+]
+
+[project.scripts]
+dataflu = "dataflu:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
